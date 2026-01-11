@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="flex flex-col-reverse items-center gap-8 justify-between w-full mx-auto max-w-[1250px] lg:flex-row">
                 <div className="flex flex-col gap-4 w-full lg:w-[60%] mx-auto">
                     <h1 className="text-3xl font-extrabold leading-tight tracking-wide duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fadeInDelay">
-                        Hi, I'm <span className="text-blue-500">Pavithr Jain</span>
+                        Hi, I'm <span className="text-blue-500">Anuj Kumar</span>
                     </h1>
 
                     <p className="max-w-2xl mx-auto text-base text-gray-300 duration-500 md:text-lg lg:text-lg animate-fadeInDelay">

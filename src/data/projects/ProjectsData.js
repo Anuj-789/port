@@ -2,33 +2,34 @@ import images from "../../assets/projects";
 
 const projectsData = [
     {
-        title: "Live Calendar",
-        description: "Simple, fast, and responsive calendar app.",
-        image: images.live_calendar,
-        link: "https://pavithrj.github.io/live-calendar/",
+        title: "Door to Door Scrap Buyer",
+        description: "Simple, fast, and responsive app for buy the scraps",
+        image: images.logo1,
+        link: "https://anuj-789.github.io/Anuj-s-Ucleve/",
         category: "Frontend",
     },
     {
-        title: "ChatWise",
-        description: "Responsive chat UI in React with clean design and smooth message flow.",
-        image: images.chatwise,
-        link: "https://pavithrj.github.io/chatwise",
+        title: "Complete Aptitude Quiz Platform ",
+        description: "A smart quiz platform for quantitative and logical aptitude development.",
+        image: images.logo2,
+        link: "https://anuj-789.github.io/quiz/",
         category: "Frontend",
     },
     {
-        title: "Devrix",
-        description: "Responsive chat UI in React with clean design and smooth message flow.",
-        image: images.devrix,
-        link: "https://pavithrj.github.io/devrix",
+        title: "Live Weather-App",
+        description: "Get real-time weather updates and a 3-day forecast for any city instantly.",
+        image: images.logo3,
+        link: "https://anuj-789.github.io/Live-Weather/",
         category: "Frontend",
     },
-    // {
-    //     title: "Task Manager API",
-    //     description: "A RESTful API for task management.",
-    //     image: images.imageTwo,
-    //     link: "#",
-    //     category: "Backend",
-    // },
+    {
+        title: "Task Manager API",
+        description: "A RESTful API for task management.",
+        image: images.logo4,
+        link: "https://anuj-789.github.io/Calculator-App/",
+        category: "Frontend",
+    },
+    //put frontend and full-stck in place of category for adding project in them
     // {
     //     title: "E-commerce Platform",
     //     description: "A shopping platform with secure payments.",
