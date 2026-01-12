@@ -38,27 +38,27 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 
 | 🧭 Navbar |
 |-|
-| ![Navbar](src/assets/demo/navbar.png) |
+| ![Navbar](./src/assets/demo/navbar.png) |
 
 | 🏠 Home |
 |-|
-| ![Home](.src/assets/demo/home.png) |
+| ![Home](./src/assets/demo/home.png) |
 
 | 👤 About |
 |-|
-| ![About](./public/demo/about.png) |
+| ![About](./src/assets/demo/about.png) |
 
 | 🛠️ Skills |
 |-|
-| ![Skills](./public/demo/skills.png) |
+| ![Skills](./src/assets/demo/skills.png) |
 
 | 📂 Projects |
 |-|
-| ![Projects](./public/demo/projects.png) |
+| ![Projects](./src/assets/demo/projects.png) |
 
 | 📞 Contact |
 |-|
-| ![Contact](./public/demo/contact.png) |
+| ![Contact](./src/assets/demo/contact.png) |
 
 ---
 
