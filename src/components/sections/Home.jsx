@@ -1,6 +1,16 @@
 import HeroImage from './../../assets/home/hero-image.png';
 
 const Hero = () => {
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            });
+        }
+    };
+
     return (
         <section id="home" className="relative flex flex-col items-center justify-center h-full min-h-screen p-4 text-center text-white lg:px-0 bg-gradient-to-b from-gray-900 to-gray-800">
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
@@ -17,17 +27,25 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-row justify-center gap-4 sm:gap-6 animate-fadeInDelay">
-                        <a href="#projects" className="flex items-center gap-2 p-3 text-sm font-semibold text-white transition-transform duration-300 transform rounded-lg shadow-xl sm:px-6 sm:text-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl">
+                        {/* <a href="#projects" className="flex items-center gap-2 p-3 text-sm font-semibold text-white transition-transform duration-300 transform rounded-lg shadow-xl sm:px-6 sm:text-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl">
                             <div>
                                 🚀
                             </div>
 
-                            <div>
+                          <div>
                                 View Projects
                             </div>
-                        </a>
+                        </a>*/}
+                        <button
+                            type="button"
+                            onClick={() => scrollToSection("projects")}
+                            className="flex items-center gap-2 p-3 text-sm font-semibold text-white transition-transform duration-300 transform rounded-lg shadow-xl sm:px-6 sm:text-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl"
+                        >
+                            🚀 View Projects
+                        </button>
 
-                        <a href="#contact" className="flex items-center gap-2 p-3 text-sm font-semibold text-white transition-transform duration-300 transform border-2 border-blue-500 rounded-lg shadow-xl sm:px-6 sm:text-lg hover:bg-blue-500 hover:scale-105 hover:shadow-2xl">
+
+                        {/* <a href="#contact" className="flex items-center gap-2 p-3 text-sm font-semibold text-white transition-transform duration-300 transform border-2 border-blue-500 rounded-lg shadow-xl sm:px-6 sm:text-lg hover:bg-blue-500 hover:scale-105 hover:shadow-2xl">
                             <div>
                                 📩
                             </div>
@@ -36,6 +54,15 @@ const Hero = () => {
                                 Contact Me
                             </div>
                         </a>
+                        */}
+
+                        <button
+                            type="button"
+                            onClick={() => scrollToSection("contact")}
+                            className="flex items-center gap-2 p-3 text-sm font-semibold text-white transition-transform duration-300 transform border-2 border-blue-500 rounded-lg shadow-xl sm:px-6 sm:text-lg hover:bg-blue-500 hover:scale-105 hover:shadow-2xl"
+                        >
+                            📩 Contact Me
+                        </button>
                     </div>
                 </div>
 

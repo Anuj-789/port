@@ -10,8 +10,8 @@ function App() {
 
             <main>
                 <Routes>
-                    <Route path="/portfolio" element={<Portfolio />} />
-                    <Route path="/portfolio/projects" element={<AllProjects />} />
+                    <Route path="/" element={<Portfolio />} />
+                    <Route path="/projects" element={<AllProjects />} />
                 </Routes>
             </main>
         </>
