@@ -38,11 +38,11 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 
 | 🧭 Navbar |
 |-|
-| ![Navbar](./public/demo/navbar.png) |
+| ![Navbar](src/assets/demo/navbar.png) |
 
 | 🏠 Home |
 |-|
-| ![Home](./public/demo/home.png) |
+| ![Home](.src/assets/demo/home.png) |
 
 | 👤 About |
 |-|
