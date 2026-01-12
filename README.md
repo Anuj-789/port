@@ -19,7 +19,7 @@ Engineered with a modern tech stack – **ReactJS**, **TailwindCSS**, and **Vite
 
 ## 🌍 Live Demo
 
-Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
+Experience it in action: [Live Demo](https://anuj-789.github.io/port)
 
 ---
 
@@ -152,7 +152,7 @@ Portfolio/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Pavithrj/portfolio.git
+git clone https://github.com/Anuj-789/port.git
 
 # Navigate to the project folder
 cd portfolio
